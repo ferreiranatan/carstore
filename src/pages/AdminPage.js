@@ -1,10 +1,10 @@
 import axios from "axios";
-import CarForm from "../components/CarForm";
+import CarForm from "../components/CarForm.js";
 
 
   const AdminPage =() =>{
     const handleSubmit =(formData)=>{
-      axios.post('http://localhost:3000/cars', formData)
+      axios.post('http://localhost:8080/cars', formData)
       .then(res => {
         console.log('Carro adicionado', res.data)
       })

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import CarTable from "../components/CarTable";
+import CarTable from "../components/CarTable.js";
 
 const HomePage = () => {
   const [cars, setCars] = useState([]);
