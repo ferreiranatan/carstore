@@ -1,72 +1,73 @@
 {
     "cars": [
-      {
-        "id": "1",
-        "marca": "Toyota",
-        "modelo": "Corolla",
-        "ano": 2020,
-        "preco": 75000,
-        "cor": "Prata",
-        "quilometragem": 15000,
-        "placa": "ABC-1234",
-        "cidade": "São Paulo",
-        "fotos": [
-          "https://1.bp.blogspot.com/-iCOUzKUqdnY/XW8QL0m--3I/AAAAAAAAWqg/32y6cGnVb-4-9dkaAm0JhKtd0EN3HU2kQCLcBGAs/s1600/Novo-Corolla-2020-Hybrid%2B%25289%2529.jpg",
-          "https://1.bp.blogspot.com/-wwo6d9lygfY/XW8QQVix7nI/AAAAAAAAWqk/ZHzpSnk4vGYEOZitzZyHUXmoeQi2Way2wCLcBGAs/s1600/Novo-Corolla-2020-Hybrid%2B%25285%2529.jpg"
-        ],
-        "dataCadastro": "2024-03-13T10:00:00.000Z",
-        "visualizacoes": 0
-      },
-      {
-        "id": "2",
-        "marca": "Honda",
-        "modelo": "Civic",
-        "ano": 2019,
-        "preco": 70000,
-        "cor": "Preto",
-        "quilometragem": 20000,
-        "placa": "DEF-5678",
-        "cidade": "Rio de Janeiro",
-        "fotos": [
-          "https://1.bp.blogspot.com/-0N4F44-mxs8/W6jxRH-YjhI/AAAAAAAAJ6E/KTrPeBv3khogaCTE5BeKAPoGAsBu17uRgCLcBGAs/s1600/2019%2BHonda%2BCivic%2BSedan-06.jpg",
-          "https://2.bp.blogspot.com/-DHoQRsOF57c/W6jxVaVxCqI/AAAAAAAAJ6I/GXGPSmqh34sjVc4OURSb5FOuPzgyXqfYACLcBGAs/s1600/2019%2BHonda%2BCivic%2BSedan-12.jpg"
-        ],
-        "dataCadastro": "2024-03-12T09:00:00.000Z",
-        "visualizacoes": 0
-      },
-      {
-        "id": "3",
-        "marca": "Fiat",
-        "modelo": "Toro",
-        "ano": 2019,
-        "preco": 150000,
-        "cor": "Preto",
-        "quilometragem": 2000,
-        "placa": "GER-5868",
-        "cidade": "Fortaleza",
-        "fotos": [
-          "https://2.bp.blogspot.com/-Je2CElS3Qyg/W3byErFCmRI/AAAAAAABG9w/kn2AiU58u_ghQUsbD4tAf0O4SWEaK3zsgCLcBGAs/s1600/Fiat-Toro-2019-Ranch%2B%252821%2529.jpg",
-          "https://2.bp.blogspot.com/-D62vM0rdoKY/W3byKrwdE7I/AAAAAAABG90/1sWrXHDFGo8spFweSS166TUR2_h-5XvkgCLcBGAs/s1600/Fiat-Toro-2019-Ranch%2B%252829%2529.jpg"
-        ],
-        "dataCadastro": "2024-03-12T09:00:00.000Z",
-        "visualizacoes": 0
-      },
-      {
-        "id": "4",
-        "marca": "Renault",
-        "modelo": "Sandero",
-        "ano": 2020,
-        "preco": 65000,
-        "cor": "Azul",
-        "quilometragem": 150000,
-        "placa": "RIR-5836",
-        "cidade": "Fortaleza",
-        "fotos": [
-          "https://1.bp.blogspot.com/-Us1ZsmSnhWs/XTfNjUw95mI/AAAAAAAAV30/OUcfZLxb3REQbaBspmquydhW8iASdD0twCLcBGAs/s1600/Novo-Renault-Sandero-2020%2B%252816%2529.jpg",
-          "https://2.bp.blogspot.com/-D62vM0rdoKY/W3byKrwdE7I/AAAAAAABG90/1sWrXHDFGo8spFweSS166TUR2_h-5XvkgCLcBGAs/s1600/Fiat-Toro-2019-Ranch%2B%252829%2529.jpg"
-        ],
-        "dataCadastro": "2024-03-12T09:00:00.000Z",
-        "visualizacoes": 0
-      }
-    ]
+        {
+          "id": "1",
+          "marca": "Toyota",
+          "modelo": "Corolla",
+          "ano": 2019,
+          "preco": 80000,
+          "cor": "Prata",
+          "quilometragem": 40000,
+          "placa": "JKL-2468",
+          "cidade": "Curitiba",
+          "fotos": [
+            "https://www.toyotacorolla.com.br/wp-content/uploads/2022/01/corolla_2022_05.jpg",
+            "https://quatrorodas.abril.com.br/wp-content/uploads/2021/01/Toyota-Corolla-Cross-5.jpeg?quality=70&strip=info&w=1024"
+          ],
+          "dataCadastro": "2024-03-14T10:30:00.000Z",
+          "visualizacoes": 0
+        },
+        {
+          "id": "2",
+          "marca": "Volkswagen",
+          "modelo": "Golf",
+          "ano": 2017,
+          "preco": 75000,
+          "cor": "Vermelho",
+          "quilometragem": 60000,
+          "placa": "MNO-1357",
+          "cidade": "Porto Alegre",
+          "fotos": [
+            "https://quatrorodas.abril.com.br/wp-content/uploads/2021/11/Novo-VW-Golf-2022-01-1024x683.jpg",
+            "https://4.bp.blogspot.com/-HchGCAVw0Rc/We6Fy_1s3MI/AAAAAAAAAq4/EnQR3PZM-b8Jl-YyA5vR4QlTx2SY6LMYgCLcBGAs/s1600/VW-Golf-R-2017-1.jpg"
+          ],
+          "dataCadastro": "2024-03-14T11:15:00.000Z",
+          "visualizacoes": 0
+        },
+        {
+          "id": "3",
+          "marca": "Honda",
+          "modelo": "Civic",
+          "ano": 2021,
+          "preco": 90000,
+          "cor": "Branco",
+          "quilometragem": 20000,
+          "placa": "PQR-3698",
+          "cidade": "Salvador",
+          "fotos": [
+            "https://www.honda.com.br/automoveis/civic/sedan/imagens/exterior/civic_2020_exterior_img1.jpg",
+            "https://www.honda.com.br/automoveis/civic/sedan/imagens/interior/civic_2020_interior_img1.jpg"
+          ],
+          "dataCadastro": "2024-03-14T12:00:00.000Z",
+          "visualizacoes": 0
+        },
+        {
+          "id": "4",
+          "marca": "Hyundai",
+          "modelo": "HB20",
+          "ano": 2018,
+          "preco": 55000,
+          "cor": "Cinza",
+          "quilometragem": 30000,
+          "placa": "STU-7890",
+          "cidade": "Recife",
+          "fotos": [
+            "https://quatrorodas.abril.com.br/wp-content/uploads/2020/09/Hyundai-HB20S-2021-1024x688.jpg",
+            "https://quatrorodas.abril.com.br/wp-content/uploads/2020/09/Hyundai-HB20S-2021-1024x688.jpg"
+          ],
+          "dataCadastro": "2024-03-14T12:45:00.000Z",
+          "visualizacoes": 0
+        }
+      ]
+      
   }
