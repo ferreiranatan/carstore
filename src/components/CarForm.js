@@ -7,6 +7,12 @@ const CarForm = ({ onsubmit }) => {
     model: '',
     year: '',
     price: '',
+    color:'',
+    mileage:'',
+    plate:'',
+    city:'',
+    photos:'',
+    registration:''
 
   })
 
@@ -91,9 +97,9 @@ const CarForm = ({ onsubmit }) => {
           </Grid>
           <Grid item xs={12}>
             <TextField
-              name="placa"
+              name="plate"
               label="Placa"
-              value={formData.placa}
+              value={formData.plate}
               onChange={handleChange}
               fullWidth
             />
@@ -102,7 +108,7 @@ const CarForm = ({ onsubmit }) => {
             <TextField
               name="city"
               label="Cidade"
-              value={formData.price}
+              value={formData.city}
               onChange={handleChange}
               fullWidth
             />
@@ -122,7 +128,7 @@ const CarForm = ({ onsubmit }) => {
               label="Data de Cadastro"
               type="date"
               variant="outlined"
-              value={formData.dataCadastro}
+              value={formData.registration}
               onChange={handleChange}
               fullWidth
               InputLabelProps={{
