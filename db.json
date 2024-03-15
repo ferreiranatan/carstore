@@ -1,73 +1,57 @@
 {
-    "cars": [
-        {
-          "id": "1",
-          "marca": "Toyota",
-          "modelo": "Corolla",
-          "ano": 2019,
-          "preco": 80000,
-          "cor": "Prata",
-          "quilometragem": 40000,
-          "placa": "JKL-2468",
-          "cidade": "Curitiba",
-          "fotos": [
-            "https://www.toyotacorolla.com.br/wp-content/uploads/2022/01/corolla_2022_05.jpg",
-            "https://quatrorodas.abril.com.br/wp-content/uploads/2021/01/Toyota-Corolla-Cross-5.jpeg?quality=70&strip=info&w=1024"
-          ],
-          "dataCadastro": "2024-03-14T10:30:00.000Z",
-          "visualizacoes": 0
-        },
-        {
-          "id": "2",
-          "marca": "Volkswagen",
-          "modelo": "Golf",
-          "ano": 2017,
-          "preco": 75000,
-          "cor": "Vermelho",
-          "quilometragem": 60000,
-          "placa": "MNO-1357",
-          "cidade": "Porto Alegre",
-          "fotos": [
-            "https://quatrorodas.abril.com.br/wp-content/uploads/2021/11/Novo-VW-Golf-2022-01-1024x683.jpg",
-            "https://4.bp.blogspot.com/-HchGCAVw0Rc/We6Fy_1s3MI/AAAAAAAAAq4/EnQR3PZM-b8Jl-YyA5vR4QlTx2SY6LMYgCLcBGAs/s1600/VW-Golf-R-2017-1.jpg"
-          ],
-          "dataCadastro": "2024-03-14T11:15:00.000Z",
-          "visualizacoes": 0
-        },
-        {
-          "id": "3",
-          "marca": "Honda",
-          "modelo": "Civic",
-          "ano": 2021,
-          "preco": 90000,
-          "cor": "Branco",
-          "quilometragem": 20000,
-          "placa": "PQR-3698",
-          "cidade": "Salvador",
-          "fotos": [
-            "https://www.honda.com.br/automoveis/civic/sedan/imagens/exterior/civic_2020_exterior_img1.jpg",
-            "https://www.honda.com.br/automoveis/civic/sedan/imagens/interior/civic_2020_interior_img1.jpg"
-          ],
-          "dataCadastro": "2024-03-14T12:00:00.000Z",
-          "visualizacoes": 0
-        },
-        {
-          "id": "4",
-          "marca": "Hyundai",
-          "modelo": "HB20",
-          "ano": 2018,
-          "preco": 55000,
-          "cor": "Cinza",
-          "quilometragem": 30000,
-          "placa": "STU-7890",
-          "cidade": "Recife",
-          "fotos": [
-            "https://quatrorodas.abril.com.br/wp-content/uploads/2020/09/Hyundai-HB20S-2021-1024x688.jpg",
-            "https://quatrorodas.abril.com.br/wp-content/uploads/2020/09/Hyundai-HB20S-2021-1024x688.jpg"
-          ],
-          "dataCadastro": "2024-03-14T12:45:00.000Z",
-          "visualizacoes": 0
-        }
-      ]
-      
-  }
+  "cars": [
+    {
+      "id": "2",
+      "marca": "Volkswagen",
+      "modelo": "Golf",
+      "ano": 2017,
+      "preco": 20000,
+      "cor": "Vermelho",
+      "quilometragem": 60000,
+      "placa": "MNO-1357",
+      "cidade": "Porto Alegre",
+      "fotos": [
+        "https://quatrorodas.abril.com.br/wp-content/uploads/2021/11/Novo-VW-Golf-2022-01-1024x683.jpg",
+        "https://4.bp.blogspot.com/-HchGCAVw0Rc/We6Fy_1s3MI/AAAAAAAAAq4/EnQR3PZM-b8Jl-YyA5vR4QlTx2SY6LMYgCLcBGAs/s1600/VW-Golf-R-2017-1.jpg"
+      ],
+      "dataCadastro": "2024-03-14T11:15:00.000Z",
+      "visualizacoes": 0,
+      "price": 20000
+    },
+    {
+      "id": "3",
+      "marca": "Honda",
+      "modelo": "Civic",
+      "ano": 2021,
+      "preco": 90000,
+      "cor": "Branco",
+      "quilometragem": 20000,
+      "placa": "PQR-3698",
+      "cidade": "Salvador",
+      "fotos": [
+        "https://www.honda.com.br/automoveis/civic/sedan/imagens/exterior/civic_2020_exterior_img1.jpg",
+        "https://www.honda.com.br/automoveis/civic/sedan/imagens/interior/civic_2020_interior_img1.jpg"
+      ],
+      "dataCadastro": "2024-03-14T12:00:00.000Z",
+      "visualizacoes": 0,
+      "price": 20000
+    },
+    {
+      "id": "4",
+      "marca": "Hyundai",
+      "modelo": "HB20",
+      "ano": 2018,
+      "preco": 55000,
+      "cor": "Cinza",
+      "quilometragem": 30000,
+      "placa": "STU-7890",
+      "cidade": "Recife",
+      "fotos": [
+        "https://quatrorodas.abril.com.br/wp-content/uploads/2020/09/Hyundai-HB20S-2021-1024x688.jpg",
+        "https://quatrorodas.abril.com.br/wp-content/uploads/2020/09/Hyundai-HB20S-2021-1024x688.jpg"
+      ],
+      "dataCadastro": "2024-03-14T12:45:00.000Z",
+      "visualizacoes": 0
+    }
+  ]
+}

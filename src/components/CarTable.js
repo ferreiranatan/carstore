@@ -6,9 +6,9 @@ const CarTable = () => {
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/cars')
+    axios.get("http://localhost:3001/cars")
       .then(res => {
-        setCars(res.data.cars);
+        setCars(res.data);
       })
       .catch(error => {
         console.error('Erro ao buscar carros:', error);
@@ -28,31 +28,31 @@ const CarTable = () => {
             <TableCell>Quilometragem</TableCell>
             <TableCell>Placa</TableCell>
             <TableCell>Cidade</TableCell>
-            <TableCell>Foto</TableCell>
+            <TableCell>Foto</TableCell> 
             <TableCell>Data de Cadastro</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
           {cars && cars.map((car) => (
             <TableRow key={car.id}>
-              <TableCell>{car.brand}</TableCell>
-              <TableCell>{car.model}</TableCell>
-              <TableCell>{car.year}</TableCell>
-              <TableCell>{car.price}</TableCell>
-              <TableCell>{car.color}</TableCell>
-              <TableCell>{car.mileage}</TableCell>
-              <TableCell>{car.plate}</TableCell>
-              <TableCell>{car.city}</TableCell>
-              <TableCell>
+              <TableCell>{car.marca}</TableCell>
+              <TableCell>{car.modelo}</TableCell>
+              <TableCell>{car.ano}</TableCell>
+              <TableCell>{car.preco}</TableCell>
+              <TableCell>{car.cor}</TableCell>
+              <TableCell>{car.quilometragem}</TableCell>
+              <TableCell>{car.placa}</TableCell>
+              <TableCell>{car.cidade}</TableCell>
+               <TableCell>
                 <ul>
-                  {car.photos && car.photos.map((foto, index) => (
+                  {car.fotos && car.fotos.map((foto, index) => (
                     <li key={index}>
                       <img src={foto} alt={`Foto ${index}`} />
                     </li>
                   ))}
                 </ul>
-              </TableCell>
-              <TableCell>{car.registration}</TableCell>
+              </TableCell> 
+              <TableCell>{car.dataCadastro}</TableCell>
             </TableRow>
           ))}
         </TableBody>

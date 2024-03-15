@@ -12,7 +12,7 @@ const CarForm = ({ onsubmit }) => {
     plate:'',
     city:'',
     photos:'',
-    registration:''
+    registration:'',
 
   })
 
@@ -32,7 +32,7 @@ const CarForm = ({ onsubmit }) => {
       quilometragem: '',
       placa: '',
       cidade: '',
-      fotos: [],
+      // fotos: [],
       dataCadastro: '',
     })
   }
@@ -54,7 +54,7 @@ const CarForm = ({ onsubmit }) => {
             <TextField
               name="model"
               label="Modelo"
-              value={formData.model}
+              value={formData.modelo}
               onChange={handleChange}
               fullWidth
             />
@@ -63,7 +63,7 @@ const CarForm = ({ onsubmit }) => {
             <TextField
               name="year"
               label="Ano"
-              value={formData.year}
+              value={formData.ano}
               onChange={handleChange}
               fullWidth
             />
@@ -72,7 +72,7 @@ const CarForm = ({ onsubmit }) => {
             <TextField
               name="price"
               label="Preço"
-              value={formData.price}
+              value={formData.preco}
               onChange={handleChange}
               fullWidth
             />
@@ -81,7 +81,7 @@ const CarForm = ({ onsubmit }) => {
             <TextField
               name="color"
               label="Cor"
-              value={formData.color}
+              value={formData.cor}
               onChange={handleChange}
               fullWidth
             />
@@ -90,7 +90,7 @@ const CarForm = ({ onsubmit }) => {
             <TextField
               name="mileage"
               label="Quilometragem"
-              value={formData.mileage}
+              value={formData.quilometragem}
               onChange={handleChange}
               fullWidth
             />
@@ -99,7 +99,7 @@ const CarForm = ({ onsubmit }) => {
             <TextField
               name="plate"
               label="Placa"
-              value={formData.plate}
+              value={formData.placa}
               onChange={handleChange}
               fullWidth
             />
@@ -108,7 +108,7 @@ const CarForm = ({ onsubmit }) => {
             <TextField
               name="city"
               label="Cidade"
-              value={formData.city}
+              value={formData.cidade}
               onChange={handleChange}
               fullWidth
             />
@@ -118,17 +118,18 @@ const CarForm = ({ onsubmit }) => {
               type="file"
               name="photos"
               aria-label="Fotos"
+              value={formData.foto}
               onChange={handleChange}
               fullWidth
             />
-          </Grid>
+          </Grid> 
           <Grid item xs={12}>
             <TextField
               name="dataCadastro"
               label="Data de Cadastro"
               type="date"
               variant="outlined"
-              value={formData.registration}
+              value={formData.dataCadastro}
               onChange={handleChange}
               fullWidth
               InputLabelProps={{

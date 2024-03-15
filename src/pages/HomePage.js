@@ -6,7 +6,7 @@ const HomePage = () => {
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/cars')
+    axios.get("http://localhost:3001/cars")
       .then((res) => {
         setCars(res.data);
       })
