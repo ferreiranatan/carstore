@@ -8,7 +8,7 @@ Antes de começar a desenvolver e executar o projeto, é necessário garantir qu
 
 Após instalar o Node.js, você pode seguir os passos abaixo para configurar o ambiente de desenvolvimento:
 
-1. Clone o repositório do projeto StoreCar do GitHub: [StoreCar GitHub Repository](https://github.com/ferreiranatan/storecar).
+1. Clone o repositório do projeto StoreCar do GitHub: [StoreCar GitHub Repository](https://github.com/ferreiranatan/carstore).
 
 2. Navegue até o diretório raiz do projeto no seu terminal.
 
