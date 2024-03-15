@@ -12,21 +12,21 @@ Após instalar o Node.js, você pode seguir os passos abaixo para configurar o a
 
 2. Navegue até o diretório raiz do projeto no seu terminal.
 
-3. Execute o seguinte comando para instalar as dependências do projeto: npm install
+3. Execute o seguinte comando para instalar as dependências do projeto: `npm install`
 
 ## Inicialização do Servidor de Desenvolvimento
 Depois de configurar o ambiente de desenvolvimento, você pode iniciar o servidor de desenvolvimento para executar a aplicação localmente. Siga os passos abaixo:
 
-1. No diretório raiz do projeto, execute o seguinte comando: npm start
+1. No diretório raiz do projeto, execute o seguinte comando: `npm start`
 
 2. Isso iniciará o servidor de desenvolvimento e abrirá a aplicação no seu navegador padrão. Se o navegador não abrir automaticamente, você pode acessar a aplicação manualmente em `http://localhost:3000` (ou na porta que você especificou).
 
 ## Inicialização do Servidor JSON Server
 Para fornecer dados à aplicação, você também precisa iniciar o servidor JSON Server. Siga os passos abaixo:
 
-1. No diretório raiz do projeto, onde está localizado o arquivo `db.json`, execute o seguinte comando para instalar o JSON Server globalmente: npm install -g json-server
+1. No diretório raiz do projeto, onde está localizado o arquivo `db.json`, execute o seguinte comando para instalar o JSON Server globalmente:  `npm install -g json-server`
 
-2. Após a instalação, inicie o JSON Server executando o seguinte comando: json-server --watch db.json --3001
+2. Após a instalação, inicie o JSON Server executando o seguinte comando: `json-server --watch db.json --3001`
 
 3. Isso iniciará o JSON Server e ele estará ouvindo na porta 3001 por padrão. Certifique-se de manter o terminal aberto enquanto estiver desenvolvendo e testando sua aplicação.
 
@@ -61,4 +61,4 @@ O projeto StoreCar utiliza as seguintes bibliotecas e ferramentas principais:
 - **JSON Server**: Pacote para criar um servidor RESTfull com base em um arquivo JSON.
 
 ## Autor
-Este projeto foi desenvolvido por [Natanael Ferreira] e está disponível sob a [Licença MIT](LICENSE).
+Este projeto foi desenvolvido por [Natanael Ferreira](https://www.linkedin.com/in/natanael-ferreira-67b86268/) e está disponível sob a [Licença MIT](LICENSE).
