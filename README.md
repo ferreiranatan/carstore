@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+Documentação do Projeto React - StoreCar
+Visão Geral
+O projeto StoreCar é uma aplicação web desenvolvida em ReactJS, utilizando Material UI para o design e Axios para fazer requisições HTTP. O objetivo da aplicação é fornecer uma plataforma para uma loja de venda de carros online, permitindo que os usuários visualizem carros ofertados e que os administradores gerenciem as ofertas através de um CRUD (Create, Read, Update, Delete).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Configuração do Ambiente de Desenvolvimento
+Antes de começar a desenvolver e executar o projeto, é necessário garantir que você tenha o Node.js e o npm (Node Package Manager) instalados em seu computador. Você pode baixá-los e instalá-los no site oficial do Node.js: https://nodejs.org/.
 
-## Available Scripts
+Após instalar o Node.js, você pode seguir os passos abaixo para configurar o ambiente de desenvolvimento:
 
-In the project directory, you can run:
+Clone o repositório do projeto StoreCar do GitHub: StoreCar GitHub Repository ultilizando o comando : git clone https://github.com/ferreiranatan
 
-### `npm start`
+Navegue até o diretório raiz do projeto no seu terminal.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Execute o seguinte comando para instalar as dependências do projeto:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm install
+Inicialização do Servidor de Desenvolvimento
+Depois de configurar o ambiente de desenvolvimento, você pode iniciar o servidor de desenvolvimento para executar a aplicação localmente. Siga os passos abaixo:
 
-### `npm test`
+No diretório raiz do projeto, execute o seguinte comando:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm start
+Isso iniciará o servidor de desenvolvimento e abrirá a aplicação no seu navegador padrão. Se o navegador não abrir automaticamente, você pode acessar a aplicação manualmente em http://localhost:3000 (ou na porta que você especificou).
 
-### `npm run build`
+Inicialização do Servidor JSON Server
+Para fornecer dados à aplicação, você também precisa iniciar o servidor JSON Server. Siga os passos abaixo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+No diretório raiz do projeto, onde está localizado o arquivo db.json, execute o seguinte comando para instalar o JSON Server globalmente:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm install -g json-server
+Após a instalação, inicie o JSON Server executando o seguinte comando:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+json-server --watch db.json --3001
+Isso iniciará o JSON Server e ele estará ouvindo na porta 3001 por padrão. Certifique-se de manter o terminal aberto enquanto estiver desenvolvendo e testando sua aplicação.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Estrutura do Projeto
+A estrutura do projeto é organizada da seguinte forma:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+src/: Contém o código-fonte da aplicação.
+components/: Pasta contendo componentes React reutilizáveis.
+pages/: Pasta contendo as páginas principais da aplicação.
+services/: Pasta contendo arquivos de serviços para interação com APIs externas.
+App.js: Arquivo principal que configura as rotas da aplicação.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Desenvolvimento de Recursos
+Durante o desenvolvimento do projeto, os seguintes recursos foram implementados:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Visualização de Carros Ofertados:
 
-## Learn More
+A página inicial permite que os usuários visualizem carros ofertados.
+Os carros são exibidos em formato de lista ou grade, com informações como marca, modelo, ano e preço.
+Os usuários podem clicar em um carro para visualizar mais detalhes.
+Administração de Ofertas (CRUD):
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+A página de administração permite que os administradores gerenciem as ofertas de carros.
+Os administradores podem adicionar, editar e excluir ofertas de carros.
+As ofertas são exibidas em uma tabela, onde os administradores podem filtrar por texto e realizar ações de edição e exclusão.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Bibliotecas e Ferramentas Utilizadas
+O projeto StoreCar utiliza as seguintes bibliotecas e ferramentas principais:
 
-### Code Splitting
+ReactJS: Biblioteca JavaScript para criar interfaces de usuário.
+Material UI: Biblioteca de componentes React para um design visual atraente e responsivo.
+Axios: Cliente HTTP baseado em Promises para fazer requisições para APIs externas.
+JSON Server: Pacote para criar um servidor RESTful com base em um arquivo JSON.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Autor
+Este projeto foi desenvolvido por Natanael Ferreira e está disponível sob a Licença MIT.
